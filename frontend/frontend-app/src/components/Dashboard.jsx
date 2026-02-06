@@ -21,7 +21,7 @@ export default function Dashboard() {
     setError("");
 
     try {
-      const response = await fetch("https://financial-health-assessment-5z2r.onrender.com/", {
+      const response = await fetch("https://financial-health-assessment-5z2r.onrender.com/analyze", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData)

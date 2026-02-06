@@ -34,3 +34,7 @@ __pycache__/
 # OS
 # =========================
 .DS_Store
+# frontend
+frontend/frontend-app/node_modules
+frontend/frontend-app/build
+
